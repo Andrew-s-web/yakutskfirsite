@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Libre+Baskerville');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+}
+
+
+/* Header overlay */
+
+
+.background-overlay {
+    background-image: url(/src/images/header-staff.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay-header {
+    background-color: rgba(0,0,0,.45);
+    height: 50vh;
+}
+.language-site {
+  display: block;
+  width: 120px;
+  height: fit-content;
+}
+
+#language-site:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+
+#language-site {
+    text-transform: capitalize;
+    border: 1px solid;
+    color: #e9e6e6;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10%;
+    padding: 10px 5px 10px 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Header nav */
+
+
+nav {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #F2E9E6;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  position: relative;
+  padding: 10px 15px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5em;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+
+.topmenu li:hover a:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.submenu {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 150px;
+  padding: 15px 0 15px;
+  margin-top: 5px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+  color: #222;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: .3s linear;
+  color: #222;
+}
+.submenu a:hover {background: #e8e8e8;}
+
+
+/* Header logos */
+
+
+.logos-header {
+    display: flex;
+    flex-direction: row;
+}
+.logo-header { 
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.logo-header img {
+  width: 120px; 
+  height: 120px;
+}
+
+.logo-fir img{
+  width: 150px;
+  height: 120px;
+}
+
+/* Header texts */
+
+.header-announce {
+    font-size: 24px;
+    text-align: center;
+    color: #100705;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    text-decoration: overline;
+    padding-top: 2%;
+}
+
+.announce img {
+  width: 250px; 
+  height: 300px;
+}
+
+
+
+
+
+/*  Main  */
+
+
+
+
+
+main {
+  height: 55vh;
+  background: linear-gradient(60deg,  #32BD45 ,#871FB2 , #311A61, #213999);
+  background-size: 400% 400%;
+  text-align: center;
+  max-height: fit-content;
+  font-size: 20px;
+  background-size: cover;
+}
+
+.main-mail-team {
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #63BEE2;
+}
+
+.main-team-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  }
+ .main-team-block {
+  height: 30vh;
+  width: 50vw;
+  padding: 3%;
+  font-size: 18px;
+  word-spacing: 5px;
+  color: #E2E7E9;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.main-team-block img{
+  height: 65%;
+  width: 30%;
+  padding-bottom: 4%;
+  }
+  
+.main-team-block p {
+  height: 100%;
+  max-height: fit-content;
+  text-align: center;
+  }
+
+.main-text-team {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+
+
+.main-title-team {
+  padding-bottom: 2%;
+}
+
+
+/* Footer*/
+
+
+
+
+.footer-credits {
+  background: linear-gradient(-45deg, #10b558, #2d4e50 ,#2f224d,  #40587C ,#1e3850 ,   #1e2751);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  text-align: center;
+  max-height: fit-content;
+  padding: 2%;
+  font-size: 20px;
+  color: #A02A63;
+  }
+  
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+  
+.credit-link {
+    text-decoration: none;
+    text-align: center;
+    color: #E2E7E9;
+}
+  
+.credit-link:hover {
+    color: #63BEE2;
+}
+  
+#credit-link-padding {
+    margin-right: 5%;
+}
+  
