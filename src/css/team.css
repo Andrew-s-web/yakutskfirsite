@@ -14,7 +14,7 @@ body {
 
 
 .background-overlay {
-    background-image: url(/src/images/header-staff.png);
+    background-image: url(src/images/header-staff.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
