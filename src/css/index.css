@@ -14,7 +14,7 @@ body {
 
 
 .background-overlay {
-    background-image: url(../src/images/background-header.png);
+    background-image: url(../images/background-header.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -257,14 +257,14 @@ div.main-slider-arrow-left {
   left: 10px;
   top: 50vh;
   display: block;
-  background: url("src/images/icons/left-arrow.svg") no-repeat;
+  background: url("../images/icons/left-arrow.svg") no-repeat;
 }
 
 div.main-slider-arrow-right {
   right: 10px;
   top: 50vh;
   display: block;
-  background: url("src/images/icons/right-arrow.svg") no-repeat
+  background: url("../images/icons/right-arrow.svg") no-repeat
 }
 div.main-slider-arrow-left:hover {
   opacity: 1.0;
@@ -299,7 +299,7 @@ span.main-dot {
 
 footer {
   height: 80vh;
-  background-image: url(src/images/footer.jpeg);
+  background-image: url(../images/footer.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
