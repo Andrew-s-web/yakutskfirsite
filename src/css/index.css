@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Libre+Baskerville');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +7,7 @@
 
 body {
     display: block;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
@@ -47,7 +48,6 @@ body {
     background-color: rgba(0, 0, 0, .2);
     border-radius: 10%;
     padding: 10px 5px 10px 5px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -76,7 +76,6 @@ nav a {
 .topmenu > li > a {
   position: relative;
   padding: 10px 15px;
-  font-family: 'Kaushan Script', cursive;
   font-size: 1.5em;
   line-height: 1;
   letter-spacing: 3px;
@@ -110,7 +109,6 @@ nav a {
   transform: translate(-50%, 0);
 }
 .submenu a {
-  font-family: 'Libre Baskerville', serif;
   font-size: 16px;
   letter-spacing: 1px;
   padding: 5px 10px;
@@ -148,7 +146,6 @@ nav a {
 .header-h-announce {
     text-align: center;
     padding-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
     color: #ECE7E6;
 }
@@ -161,7 +158,6 @@ nav a {
     text-align: right;
     padding: 50px;
     padding-top: 15px;
-    font-family: 'Kaushan Script', cursive;
     margin-left: auto;
     margin-right: 10vh;
 }
@@ -333,8 +329,8 @@ footer {
   font-size: 18px;
   word-spacing: 5px;
   color: #E2E7E9;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .footer-grid-partner img{
   height: 100%;
   width: 65%;
