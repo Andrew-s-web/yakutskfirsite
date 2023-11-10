@@ -61,20 +61,22 @@ main {
     transition: background-color .3s, color .3s, border .3s;
 }
 
-.ueee-main-information-table {
-    margin: 5%;
-}
-
-.ueee-main-information-table table{
-    width: 40%;
+.ueee-main-information-table table, .navaids table{
     border: #000 1px solid;
     border-collapse: collapse;
     text-align: center;
     font-weight: 500;
 }
 
-.ueee-main-information-table table td {
+
+.ueee-main-information-table table td, .navaids table td{
     border: #000 1px solid;
-    padding: 0.5rem;
+    padding: 0.75rem 1.5rem;
 }
 
+.main-info-tables {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-bottom: 3%;
+}
