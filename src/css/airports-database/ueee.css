@@ -1,0 +1,74 @@
+main {
+    background-color: rgb(221, 218, 218);
+}
+
+.runway-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.runway-img img{
+    width: 60%;
+    height: 30%;
+}
+
+
+
+.main-information {
+    display: flex;
+    justify-content: center;
+    padding: 5% 3% 3% 3%;
+}
+
+
+
+.basic-info {
+    max-width: 80%;
+    font-size: 20px;
+    padding: 0 20px 0 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.metar {
+    padding: 0 3% 2% 2%;
+}
+
+.notams {
+    text-align: center;
+    height: 38px;
+    margin-bottom: 3%;
+}
+
+.notams a{
+    color: #fff;
+    text-decoration: none;
+    border: #000 solid 2px;
+    background-color: rgba(32, 32, 158, 0.863);
+    padding: 10px 15px;
+    border-radius: 5%;
+}
+
+.notams a:hover {
+    background-color: rgb(221, 218, 218);
+    color: #000;
+    border: #000 2px dashed;
+}
+
+.ueee-main-information-table {
+    margin: 5%;
+}
+
+.ueee-main-information-table table{
+    width: 40%;
+    border: #000 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 500;
+}
+
+.ueee-main-information-table table td {
+    border: #000 1px solid;
+    padding: 0.5rem;
+}
+
