@@ -1,0 +1,39 @@
+/*   Footer   */
+
+
+.footer-credits {
+    background: linear-gradient(-45deg, #10b558, #2d4e50 ,#2f224d,  #40587C ,#1e3850 ,   #1e2751);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    text-align: center;
+    max-height: fit-content;
+    padding: 2%;
+    font-size: 20px;
+    color: #A02A63;
+    }
+    
+  @keyframes gradient {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+  }
+    
+  .credit-link {
+      text-decoration: none;
+      text-align: center;
+      color: #E2E7E9;
+  }
+    
+  .credit-link:hover {
+      color: #63BEE2;
+  }
+    
+  #credit-link-padding {
+      margin-right: 5%;
+  }
