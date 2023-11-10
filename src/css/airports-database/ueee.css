@@ -34,25 +34,31 @@ main {
     padding: 0 3% 2% 2%;
 }
 
-.notams {
-    text-align: center;
-    height: 38px;
-    margin-bottom: 3%;
+.notams-charts {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 5%;
 }
 
-.notams a{
+
+.notams , .charts {
     color: #fff;
     text-decoration: none;
     border: #000 solid 2px;
     background-color: rgba(32, 32, 158, 0.863);
-    padding: 10px 15px;
+    padding: 15px 20px;
     border-radius: 5%;
+    min-width: 110px;
+    text-align: center;
 }
 
-.notams a:hover {
+.notams:hover, .charts:hover {
     background-color: rgb(221, 218, 218);
     color: #000;
     border: #000 2px dashed;
+    font-weight: 600;
+    transition: background-color .3s, color .3s, border .3s;
 }
 
 .ueee-main-information-table {
