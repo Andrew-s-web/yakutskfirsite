@@ -80,3 +80,19 @@ main {
     flex-wrap: nowrap;
     margin-bottom: 3%;
 }
+
+.header-table {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.streched {
+    max-width: 10vw;
+}
+
+.active-color {
+    background-color: rgba(45, 148, 45, 0.959);
+}
+.waited {
+    background-color: rgb(219, 219, 15);
+}
