@@ -22,22 +22,32 @@ main {
 }
 
 .main-list-docs {
-    padding-left: 5%;
     font-size: 20px;
     text-decoration: none;
-    list-style-type: circle;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-list-docs li {
-    padding-bottom: 10px;
+    padding-bottom: 4%;
+    text-align: center;
+    
 }
 
 .main-list-docs a {
     text-decoration: none;
     color: #1e3850;
+    border: #1e3850 1px dashed;
+    padding: 10px;
 }
 
 .main-list-docs a:hover {
-    color: rgb(190, 60, 60);
+    color: rgb(85, 155, 235);
+    font-weight: 700;
+    background-color: #1e3850;
+    border-radius: 10px;
+    transition: background-color ease-in .5s, border-radius ease .5s, color ease .5s, font-weight linear .5s;
 }
 
