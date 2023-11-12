@@ -1,0 +1,98 @@
+main {
+    background-color: rgb(221, 218, 218);
+}
+
+.runway-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.runway-img img{
+    width: 60%;
+    height: 30%;
+}
+
+
+
+.main-information {
+    display: flex;
+    justify-content: center;
+    padding: 5% 3% 3% 3%;
+}
+
+
+
+.basic-info {
+    max-width: 80%;
+    font-size: 20px;
+    padding: 0 20px 0 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.metar {
+    padding: 0 3% 2% 2%;
+}
+
+.notams-charts {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+
+
+.notams , .charts {
+    color: #fff;
+    text-decoration: none;
+    border: #000 solid 2px;
+    background-color: rgba(32, 32, 158, 0.863);
+    padding: 15px 20px;
+    border-radius: 5%;
+    min-width: 110px;
+    text-align: center;
+}
+
+.notams:hover, .charts:hover {
+    background-color: rgb(221, 218, 218);
+    color: #000;
+    border: #000 2px dashed;
+    font-weight: 600;
+    transition: background-color .3s, color .3s, border .3s;
+}
+
+.ueee-main-information-table table, .navaids table{
+    border: #000 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.ueee-main-information-table table td, .navaids table td{
+    border: #000 1px solid;
+    padding: 0.75rem 1.5rem;
+}
+
+.main-info-tables {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-bottom: 3%;
+}
+
+.header-table {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.streched {
+    max-width: 10vw;
+}
+
+.active-color {
+    background-color: rgb(45, 148, 45);
+}
+.waited {
+    background-color: rgb(219, 219, 15);
+}
