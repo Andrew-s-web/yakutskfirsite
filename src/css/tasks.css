@@ -1,0 +1,43 @@
+main {
+    background-color: rgb(221, 218, 218);
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+table {
+    border: 2px #111 solid;
+    border-collapse: collapse;
+    margin: 3% 0;
+    min-width: 25%;
+    max-width: 25%;
+}
+
+table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+table td{
+    text-align: center;
+    border: 1px #111 solid;
+    padding: 15px 25px;
+}
+
+.table-done td {
+    background-color: rgb(25, 143, 25);
+}
+
+.table-in_progress td{
+    background-color: rgb(223, 223, 29);
+}
+
+.table-in_plans td{
+    background-color: rgb(212, 38, 38);
+}
+
+.top-border {
+    border-top: #111 2px solid;
+}
