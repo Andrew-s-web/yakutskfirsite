@@ -57,16 +57,27 @@
         </div>
     </header>
     <main>
+      <div class="main-cont">
+        <div class="main-title-docs">
+          <button onclick="switchVisible1();">Документы</button>
+          <button onclick="switchVisible2();" id="btn-2">УВД и Экипижам</button>
+        </div>
         <div class="main-docs-container">
-            <h1 class="main-title-docs">Документы</h1>
-            <h1>УВД и Экипижам</h1>
-            <ul class="main-list-docs">
+          
+            <ul class="main-list-docs" id="ul1">
                 <li><a href="../documents/4_2023..docx" download="4_2023">План развития на 4 квартал 2023 года</a></li>
                 <li><a href="../documents/discord-rules.docx" download="discord-rules">Правила Discord-сервера</a></li>
                 <li><a href="../documents/Учебник по ФРО 2023г. СПБГУГА.pdf" download="Учебник по ФРО 2023г. СПБГУГА">Учебник по ФРО 2023г. СПБГУГА</a></li>
                 <li><a href="../documents/Составление и Понимание Полетного Плана.pdf" download="Составление и Понимание Полетного Плана">Составление и Понимание Полетного Плана</a></li>
             </ul>
+            <ul class="main-list-docs" id="ul2" style="display: none;">
+                <li><a href="../documents/4_2023..docx" download="4_2023">План развития2023 года</a></li>
+                <li><a href="../documents/discord-rules.docx" download="discord-rules"> Discord-сервера</a></li>
+                <li><a href="../documents/Учебник по ФРО 2023г. СПБГУГА.pdf" download="Учебник по ФРО 2023г. СПБГУГА">Учеб023г. СПБГУГА</a></li>
+                <li><a href="../documents/Составление и Понимание Полетного Плана.pdf" download="Составление и Понимание Полетного Плана">Полетного Плана</a></li>
+            </ul>
         </div>
+      </div>
     </main>
     <footer>
         <div class="footer-credits">
@@ -76,5 +87,6 @@
             <a href="https://xr.ivao.aero/" target="_blank" class="credit-link">IVAO(XR)</a>
       </div>
     </footer>
+    <script src="../js/btns-visible.js"></script>
 </body>
 </html>
