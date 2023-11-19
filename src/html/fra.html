@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/tasks.css">
-    <title>Tasks</title>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/fra.css">
+    <title>FRA</title>
 </head>
 <body>
     <header>
@@ -49,7 +49,7 @@
                 <div class="logo-header"> <img src="../images/XR.png"></div>
                 <div class="logo-fir"><img src="../images/logo-fir.png"></div>
                 <div class="header-announce"> 
-                  <h1>Планы и задачи</h1>
+                  <h1>Наша команда</h1>
                 </div>
               </div>
             </div>
@@ -58,39 +58,29 @@
     </header>
 
     <main>
-        <table class="table-done">
-          <thead>
-            <th>Выполнено</th>
-          </thead>
-            <tbody>
-              <tr><td class="top-border">Loading...</td></tr>
-              <tr><td>Loading...</td></tr>
-              <tr><td>Loading...</td></tr>
-              <tr><td>Loading...</td></tr>
-            </tbody>
-        </table>
-        <table class="table-in_progress">
-          <thead>
-            <th>В процессе</th>
-          </thead>
-          <tbody>
-            <tr><td class="top-border">Loading...</td></tr>
-            <tr><td>Loading...</td></tr>
-            <tr><td>Loading...</td></tr>
-            <tr><td>Loading...</td></tr>
-          </tbody>
-        </table>
-        <table class="table-in_plans">
-          <thead>
-            <th>В планах</th>
-          </thead>
-          <tbody>
-            <tr><td class="top-border">Loading...</td></tr>
-            <tr><td>Loading...</td></tr>
-            <tr><td>Loading...</td></tr>
-            <tr><td>Loading...</td></tr>
-          </tbody>
-        </table>
+        <div class="main-airports-fra">
+            <table class="main-fra-table">
+                <tbody>
+                    <tr>    <td>UEEE</td> <td><a href="#">Yakutsk<table class="hidden-fra-menu">
+                        <thead>
+                            <th>ICAO Аэропорта</th>  <th>Позиция</th>  <th>Название позиции</th> <th>Требование</th>
+                        </thead>
+                        <tbody>
+                            <tr>  <td>UEEE</td>  <td>UEEE_GND</td>  <td>Якутск-Руление</td>  <td><img src="../images/FRA/1AS.png"></td>  </tr>
+                            <tr>  <td>UEEE</td>  <td>UEEE_TWR</td>  <td>Якутск-Старт</td>  <td><img src="../images/FRA/1AS.png"></td>  </tr>
+                            <tr>  <td>UEEE</td>  <td>UEEE_R_APP</td>  <td>Якутск-Круг</td>  <td><img src="../images/FRA/1AS.png"></td>  </tr>
+                            <tr>  <td>UEEE</td>  <td>UEEE_APP</td>  <td>Якутск-Подход</td>  <td><img src="../images/FRA/1AS.png"></td>  </tr>
+                            <tr>  <td>UEEE</td>  <td>UEEE_CTR</td>  <td>Якутск-Контроль</td>  <td><img src="../images/FRA/1AS.png"></td>  </tr>
+                        </tbody>
+                    </table></a></td> <td>YKS</td> <td>Yakutsk</td> <td>Midsized airport</td>    </tr>
+                    <tr>    <td>UEST</td> <td><a href="#" onclick="fra_menu()">Tiksi Airport</a></td> <td>IKS</td> <td>Tiksi</td> <td>Midsized airport</td>    </tr>
+                    <tr>    <td>UESO</td> <td><a href="#" onclick="fra_menu()">Chokurdakh Airport</a></td> <td>CKH</td> <td>Chokurdah</td> <td>Midsized airport</td>    </tr>
+                    <tr>    <td>UERR</td> <td><a href="#" onclick="fra_menu()">Mirniy Airport</a></td> <td>MJZ</td> <td>Mirniy</td> <td>Midsized airport</td>    </tr>
+                    <tr>    <td>UERP</td> <td><a href="#" onclick="fra_menu()">Polyarniy Airport</a></td> <td>PYJ</td> <td>Polyarniy</td> <td>Midsized airport</td>    </tr>
+                    <tr>    <td>UELL</td> <td><a href="#" onclick="fra_menu()">Nerungri Airport</a></td> <td>NER</td> <td>Nerungri</td> <td>Midsized airport</td>    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <footer>
