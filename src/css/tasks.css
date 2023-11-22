@@ -24,6 +24,7 @@ table td{
     text-align: center;
     border: 1px #111 solid;
     padding: 15px 25px;
+    font-size: 22px;
 }
 
 .table-done td {
