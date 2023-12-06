@@ -293,66 +293,51 @@ span.main-dot {
 }
 
 
-.main-columns-ev-nw {
+.main-news-cont{
   display: flex;
-  flex-direction: row;
-  align-content: space-evenly;
+  flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
-  min-height: 70vh;
   background-color: rgb(12, 32, 59);
   width: 100%;
   padding: 4% 0;
+  color: #BBB;
 }
 
-.column-news {
-  background-color: rgb(183, 185, 187);
-  height: 100%;
-  width: 30%;
-  border-left: 2px solid #000;
-  padding: 3%;
+.main-news-cont h1 {
+  padding-bottom: 2%;
 }
 
-.column-events {
-  background-color: rgb(183, 185, 187);
-  height: 100%;
-  width: 30%;
-  padding: 3%;
+
+.news-block-column {
+  width: 80%;
+  height: 20%;
+  padding: 4% 0;
+  background-color: #1e3850;
+  border-radius: 50px;
 }
 
-.col-event, .col-new {
-  height: 30%;
-  width: 100%;
+
+.new-cont {
   display: flex;
   flex-direction: row;
-  padding-top: 6%;
-  padding-bottom: 3%;
-  padding-left: 5%;
+  justify-content: center;
+  gap: 10%;
+  padding: 5%;
 }
 
-.col-event:last-child, .col-new:last-child {
-  padding-bottom: 3%;
-}
-
-.col-event img, .col-new img {
-  height: 70%;
+.new-cont img {
   width: 30%;
+  height: 250px;
 }
 
-.col-event-text, .col-news-text {
-  width: 60%;
-  padding-left: 15px;
-}
-
-.col-event-text h3, .col-news-text h3{
-  text-align: center;
+.new-cont-text p{
   font-size: 20px;
-  padding-bottom: 10px;
 }
 
 
-.col-event:hover, .col-new:hover {
+.new-cont:hover {
   background-color: rgba(0, 0, 0, 0.205);
   transition: background-color 0.5s ease;
   cursor: pointer;
