@@ -36,7 +36,7 @@ main {
 
 .main-team-block img{
   height: 65%;
-  width: 30%;
+  width: 40%;
   padding-bottom: 4%;
   }
   
@@ -48,7 +48,7 @@ main {
 
 .main-text-team {
   text-align: center;
-  width: 50%;
+  width: 70%;
   display: inline-block;
 }
 
