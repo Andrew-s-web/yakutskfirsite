@@ -1,0 +1,42 @@
+.main-scen {
+    width: 100%;
+    background-color: rgb(26, 26, 141);
+}
+
+.main-table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #d8d7d7;
+    padding: 3% 0;
+    font-size: 20px;
+}
+
+.main-table h1 {
+    padding-bottom: 3%;
+}
+
+.main-table a {
+    color: #BBB;
+    text-decoration: dashed;
+    text-align: center;
+}
+
+.main-table table {
+    width: 70%;
+    text-align: center;
+    list-style-position: inside;
+    border-collapse: collapse;
+    border: 1px solid #FFF;
+}
+
+.main-table td {
+    padding: 10px 15px;
+    border: 1px solid #FFF;
+}
+
+.main-table th {
+    padding: 15px;
+}
