@@ -45,12 +45,14 @@ main {
     padding-top: 2%;
     text-align: center;
     padding-bottom: 2%;
-    font-size: 20px;
-    word-spacing: 3px;
-    letter-spacing: 1px;
-    line-height: 100%;
 }
 
+.event-card-text p {
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 1px; 
+    line-height: 100%;
+}
 .event-card-text h2{
     padding-bottom: 5%;
 }
