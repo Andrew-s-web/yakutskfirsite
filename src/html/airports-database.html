@@ -95,7 +95,7 @@
                         <td>Adjacent</td>
                         <td>
                             <ul class="main-fir-table-list">
-                                <li><a href="">Magadan FIR</a></li>
+                                <li><a href="#" onclick="switchTableMagadan()">Magadan FIR</a></li>
                                 <li><a href="">Krasnoyarsk FIR</a></li>
                                 <li><a href="">Khabarovsk FIR</a></li>
                                 <li><a href="">Irkutsk FIR</a></li>
@@ -108,12 +108,11 @@
         </div>
         <h1 class="main-title-airports-information">Airports in Yakutsk FIR</h1>
         <div class="main-airports-information">
-            <table class="main-airports-table">
-                <tbody>
+            <table class="main-airports-table" id="Yakutsk">
                   <thead>
                     <tr>    <th>ICAO</th> <th>Name</th> <th>IATA</th> <th>City</th> <th>Type</th>    </tr>
                   </thead>
-
+                  <tbody>
                     <tr>    <td>UEEE</td> <td><a href="../html/airports-database/ueee.html">Yakutsk Airport</a></td> <td>YKS</td> <td>Yakutsk</td> <td>Midsized airport</td>    </tr>
                     <tr>    <td>UEST</td> <td><a href="../html/airports-database/uest.html">Tiksi Airport</a></td> <td>IKS</td> <td>Tiksi</td> <td>Midsized airport</td>    </tr>
                     <tr>    <td>UESO</td> <td><a href="../html/airports-database/ueso.html">Chokurdakh Airport</a></td> <td>CKH</td> <td>Chokurdah</td> <td>Midsized airport</td>    </tr>
@@ -178,6 +177,20 @@
                     <tr>    <td>UEWD</td> <td><a href="#">Deputatskiy Airport</a></td> <td></td> <td>Deputatsky</td> <td>Small airport</td>    </tr>
                 </tbody>
             </table>
+            <table class="main-airports-table" id="Magadan" style="display: none;">
+              <tbody>
+                <thead>
+                  <tr>    <th>ICAO</th> <th>Name</th> <th>IATA</th> <th>City</th> <th>Type</th>    </tr>
+                </thead>
+
+                  <tr>    <td>UEEE</td> <td><a href="../html/airports-database/ueee.html">Yakutsk Airport</a></td> <td>YKS</td> <td>Yakutsk</td> <td>Midsized airport</td>    </tr>
+                  <tr>    <td>UEST</td> <td><a href="../html/airports-database/uest.html">Tiksi Airport</a></td> <td>IKS</td> <td>Tiksi</td> <td>Midsized airport</td>    </tr>
+                  <tr>    <td>UESO</td> <td><a href="../html/airports-database/ueso.html">Chokurdakh Airport</a></td> <td>CKH</td> <td>Chokurdah</td> <td>Midsized airport</td>    </tr>
+                  <tr>    <td>UERR</td> <td><a href="../html/airports-database/uerr.html">Mirniy Airport</a></td> <td>MJZ</td> <td>Mirniy</td> <td>Midsized airport</td>    </tr>
+                  <tr>    <td>UERP</td> <td><a href="../html/airports-database/uerp.html">Polyarniy Airport</a></td> <td>PYJ</td> <td>Polyarniy</td> <td>Midsized airport</td>    </tr>
+                  <tr>    <td>UELL</td> <td><a href="../html/airports-database/uell.html">Nerungri Airport</a></td> <td>NER</td> <td>Nerungri</td> <td>Midsized airport</td>    </tr>
+              </tbody>
+          </table>
         </div>
         <h2 class="main-aftertable-title">Информация взята с сайта &nbsp;<a href="https://metar-taf.com/" target="_blank">METAR</a></h2>
     </main>
