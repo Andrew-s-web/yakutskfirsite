@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/sceneries.css">
-    <title>Sceneries</title>
+    <link rel="stylesheet" href="../css/vacancies.css">
+    <title>Events</title>
 </head>
 <body>
     <header>
@@ -19,7 +19,7 @@
                 <ul class="topmenu">
                   <li><a href="../../index.html">Главная</a>
                     <ul class="submenu">
-                        <li><a href="../html/vacancies.html">Вакансии</a></li>
+                        <li><a href="">Вакансии</a></li>
                         <li><a href="../html/events.html">Мероприятия</a></li>
                         <li><a href="../html/team.html">Наша команда</a></li>
                         <li><a href="https://discord.gg/ffQGn8nC">Дискорд</a></li>
@@ -38,7 +38,7 @@
                     <a href="#" class="down">Экипижам</a>
                     <ul class="submenu">
                       <li><a href="#">Брифинг</a></li>
-                      <li><a href="">Сценарии</a></li>
+                      <li><a href="../html/sceneries.html">Сценарии</a></li>
                       <li><a href="#">Loading...</a></li>
                     </ul>
                   </li>
@@ -49,7 +49,7 @@
                 <div class="logo-header"> <img src="../images/XR.png"></div>
                 <div class="logo-fir"><img src="../images/fir.png"></div>
                 <div class="header-announce"> 
-                  <h1>Сценарии</h1>
+                  <h1>Вакансии</h1>
                 </div>
               </div>
             </div>
@@ -58,12 +58,33 @@
     </header>
 
     <main>
-        <div class="headers-column">
-          <div class="h-msfs" onclick="redir_msfs()"><h1>Microsoft Flight Simulator</h1></div>
-          <div class="h-xplane11" onclick="redir_xplane11()"><h1>X-Plane 11</h1></div>
-          <div class="h-xplane12" onclick="redir_xplane12()"><h1>X-Plane 12</h1></div>
-          <div class="h-prepar3d" onclick="redir_prepar3d()"><h1>Prepar3D</h1></div>
-          <div class="h-fs2004" onclick="redir_fs2004()"><h1>FS2004</h1></div>
+            <div class="main-events-container">
+                <div class="events-column">
+                    <div class="event-card">
+                        <img src="../images/events_banners/dm_banner2.png" alt="">
+                        <div class="event-card-text">
+                            <h2>YBUEH</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="event-card">
+                        <img src="../images/events_banners/dm_banner1.png" alt="">
+                        <div class="event-card-text">
+                            <h2>YBUEH</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <img src="../images/events_banners/alex_banner.png" alt="">
+                        <div class="event-card-text">
+                            <h2>YBUEH</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -75,6 +96,5 @@
             <a href="https://xr.ivao.aero/" target="_blank" class="credit-link">IVAO(XR)</a>
       </div>
     </footer>
-    <script src="../js/sceneries-redir.js"></script>
 </body>
 </html>

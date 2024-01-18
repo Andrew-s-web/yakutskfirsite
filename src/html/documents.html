@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders and reports</title>
+    <link rel="stylesheet" href="../css/documents.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/news.css">
-    <title>Events</title>
 </head>
 <body>
     <header>
@@ -19,11 +19,11 @@
                 <ul class="topmenu">
                   <li><a href="../../index.html">Главная</a>
                     <ul class="submenu">
-                        <li><a href="">Новости</a></li>
+                        <li><a href="../html/vacancies.html">Вакансии</a></li>
                         <li><a href="../html/events.html">Мероприятия</a></li>
                         <li><a href="../html/team.html">Наша команда</a></li>
                         <li><a href="https://discord.gg/ffQGn8nC">Дискорд</a></li>
-                        <li><a href="../html/orders-n-reports.html">Документы</a></li>
+                        <li><a href="../html/documents.html">Документы</a></li>
                         <li><a href="../html/tasks.html">Цели и задачи</a></li>
                         <li><a href="#">Схемы и карты</a></li>
                       </ul>
@@ -49,45 +49,36 @@
                 <div class="logo-header"> <img src="../images/XR.png"></div>
                 <div class="logo-fir"><img src="../images/fir.png"></div>
                 <div class="header-announce"> 
-                  <h1>Новости</h1>
+                  <h1>Распоряжения и отчеты</h1>
                 </div>
               </div>
             </div>
           </div>
         </div>
     </header>
-
     <main>
-            <div class="main-events-container">
-                <div class="events-column">
-                    <div class="event-card">
-                        <img src="../images/events_banners/dm_banner2.png" alt="">
-                        <div class="event-card-text">
-                            <h2>YBUEH</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        
-                    </div>
-                    <div class="event-card">
-                        <img src="../images/events_banners/dm_banner1.png" alt="">
-                        <div class="event-card-text">
-                            <h2>YBUEH</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                    <div class="event-card">
-                        <img src="../images/events_banners/alex_banner.png" alt="">
-                        <div class="event-card-text">
-                            <h2>YBUEH</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
+      <div class="main-cont">
+        <div class="main-title-docs">
+          <button onclick="switchVisible2();">Документы</button>
+          <button onclick="switchVisible1();" id="btn-2">УВД и Экипижам</button>
         </div>
+        <div class="main-docs-container">
+          
+            <ul class="main-list-docs" id="ul1">
+                <li><a href="../documents/4_2023..docx" download="4_2023">План развития на 4 квартал 2023 года</a></li>
+                <li><a href="../documents/discord-rules.docx" download="discord-rules">Правила Discord-сервера</a></li>
+                <li><a href="../documents/Учебник по ФРО 2023г. СПБГУГА.pdf" download="Учебник по ФРО 2023г. СПБГУГА">Учебник по ФРО 2023г. СПБГУГА</a></li>
+                <li><a href="../documents/Составление и Понимание Полетного Плана.pdf" download="Составление и Понимание Полетного Плана">Составление и Понимание Полетного Плана</a></li>
+            </ul>
+            <ul class="main-list-docs" id="ul2" style="display: none;">
+                <li><a href="../documents/4_2023..docx" download="4_2023">План развития2023 года</a></li>
+                <li><a href="../documents/discord-rules.docx" download="discord-rules"> Discord-сервера</a></li>
+                <li><a href="../documents/Учебник по ФРО 2023г. СПБГУГА.pdf" download="Учебник по ФРО 2023г. СПБГУГА">Учеб023г. СПБГУГА</a></li>
+                <li><a href="../documents/Составление и Понимание Полетного Плана.pdf" download="Составление и Понимание Полетного Плана">Полетного Плана</a></li>
+            </ul>
+        </div>
+      </div>
     </main>
-
     <footer>
         <div class="footer-credits">
             <p>Made with love</p>
@@ -96,5 +87,6 @@
             <a href="https://xr.ivao.aero/" target="_blank" class="credit-link">IVAO(XR)</a>
       </div>
     </footer>
+    <script src="../js/btns-visible.js"></script>
 </body>
 </html>

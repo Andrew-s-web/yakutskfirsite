@@ -1,0 +1,44 @@
+main {
+    background-color: beige;
+}
+
+.main-table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+table{
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+table th {
+    padding: 10px;
+    font-size: 22px;
+}
+
+table td {
+    padding: 10px 15px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #000;
+}
+
+table a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: inherit;
+    border-bottom: 1px dashed #973333;
+}
+
+table a:hover {
+    color: rgb(255, 127, 8);
+    transition: ease-in .2s;
+}
